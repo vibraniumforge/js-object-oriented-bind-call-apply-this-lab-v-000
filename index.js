@@ -12,5 +12,9 @@ function setThisWithApply(fn, thisValue, argument) {
 }
 
 function returnNewFunctionOf(functionToBeCopied, thisValue) {
+<<<<<<< HEAD
   return functionToBeCopied.bind(thisValue);
+=======
+  return functionToBeCopied.apply(thisValue);
+>>>>>>> 948aedd28c7c2adc72a423018c518533c7b3365e
 }
